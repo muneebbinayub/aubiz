@@ -1,0 +1,44 @@
+.about-main{
+    height: 100%;
+    width: 100%;
+    /* margin: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.about-left{
+    width: 30%;
+}
+
+.about-left img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+.about-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+.about-right h1{
+    margin: 14px;
+    color: #174B90;
+    font-size: 53px;
+    font-weight: 600;
+}
+.about-right p
+{
+    color: rgb(219, 209, 209);
+    line-height: 21px;
+}
