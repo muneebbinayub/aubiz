@@ -1,21 +1,354 @@
 *{
     padding: 0%;
     margin: 0%;
-    text-decoration:none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    /* box-sizing: border-box; */
 }
 
-a{
-    color: white;
-}
-
-
-.home{
+body {
     background-color: black;
     color: white;
+}
+
+.home
+{
+    height: 100vh;
+    width: 100%;
+    background: url('/images/homee.jpeg') no-repeat center center/cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation
+{
+
+    width: 80%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left img
+{
+    width: 31px;
+    margin: 6px;
+}
+
+.navigation ul
+{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation a
+{
+    color: white;
+    transition: 0.5s ease-in;
+}
+.navigation a:hover
+{
+    color: #1752a0;
+
+}
+
+.btn
+{
+    width: 143px;
+    height: 41px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #174B90;
+    color: white;
+}
+
+.home-one
+{
+    top: 2%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-one img
+{
+    width: 153px;
+    height: 84px;
+}
+
+.home-one .left
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.home-one .left img
+{
+    width: 57px;
+    height: 54px;
+}
+
+
+.home-one .left p
+{
+    margin-bottom: 12px;
+}
+
+.home-main
+{
+    height: 72vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.home-main h1
+{
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+.buttons
+{
+    margin-top: 32px;
+
+}
+
+.buttons .btn
+{
+    width: 150px;
+    height: 44px;
+    margin: 5px;
+}
+
+.btna
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.enquire
+{
     width: 100%;
-    flex-direction:column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #174B90;
+    padding: 5rem 0rem;
+}
+
+.enquire form
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enquire button
+{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 134px;
+    height: 42px;
+    margin-top: 36px;
+}
+
+form input
+{
+    width: 196px;
+    height: 24px;
+    border-radius: 43px;
+    outline: none;
+    border: none;
+    padding: 16px;
+}
+
+.enquire form p
+{
+    margin-left: 24px;
+}
+
+.best
+{
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.best p{
+    color: #102e55;    
+    font-size: 17px;
+    margin: 4px;
+}
+
+.best h1
+{
+    color: #08254d;
+    font-size: 43px;
+}
+
+.best-main
+{
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    height: 460px;
+    width: 360px;
+    position: relative;
+    border-radius: 24px;
+}
+
+.carda{
+    background: url('/images/ep.jpeg') no-repeat center center/cover;
+
+}
+
+.cardb{
+    background: url('/images/cp.jpeg') no-repeat center center/cover;
+
+}
+
+.cardc{
+    background: url('/images/wap.jpg') no-repeat center center/cover;
+
+}
+
+.card-main
+{
+    width: 80%;
+    height: 25%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    padding: 12px;
+    border-radius: 33px;
+}
+
+.stars
+{
+    position: absolute;
+    bottom: 37%;
+    z-index: 3;
+    right: 13%;
+    background-color: #174B90;
+    padding: 4px 13px;
+    border-radius: 13px;
+    font-size: 14px;
+}
+
+.card-main p:nth-child(1)
+{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #174B90;
+}
+
+.card-main h2
+{
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    font-size: 21px;
+}
+
+.card-main p:nth-child(2)
+{
+    font-size: 11px;
+}
+
+.pack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 330px;
+    border-radius: 37px;
+    overflow-y: hidden;
+    margin: 2rem 0;
+}
+
+.pack .left{
+    height: 100%;
+    width: 32%;
+}
+
+.pack .lefta{
+    background: url('/images/heritage.jpeg') no-repeat center center/cover;
+}
+.pack .leftb{
+    background: url('/images/calm.jpeg') no-repeat center center/cover;
+}
+.pack .leftc{
+    background: url('/images/dal\ lake.jpg') no-repeat center center/cover;
+}
+
+.pack .right,.pack .mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pack .mid{
+    width: 44%;
+    height: 100%;
+    background-color: white;
+}
+
+.pack .right{
+    width: 24%;
+    height: 100%;
+    background-color: #174B90;
+    color: white;
+}
+
+.pack .mid
+{
+    color: #08254d;
+    padding: 1rem;
+}
+
+.pack h1
+{
+    color: rgb(214, 208, 208);
+}
+
+.pack button
+{
+    border: 2px solid white;
+    margin-top: 12px;
+}
+
+.pack .right p{
+    color: white;
+}
+
+.pack b{
+    color: rgb(193, 187, 187);
 }
