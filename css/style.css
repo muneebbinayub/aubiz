@@ -372,10 +372,11 @@ a{
         font-size: 37px;
     }
     
-    
-    .home-main p{
-        display: none;
-    }
+    .home-main p {
+    /* display: none; */
+    width: 91%;
+    font-size: 15px;
+}
     
     
     .enquire form {
@@ -560,14 +561,14 @@ a{
     }
 
     .home {
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
     }
 }
 
 @media only screen and (max-width: 460px) {
 
     .home-main h1 {
-        font-size: 21px;
+        font-size: 22px;
     }
 
     .best h1 {
